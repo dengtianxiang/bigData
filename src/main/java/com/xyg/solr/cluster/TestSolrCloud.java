@@ -1,4 +1,4 @@
-package com.xyg.solrCloud;
+package com.xyg.solr.cluster;
 
 
 
@@ -7,7 +7,7 @@ package com.xyg.solrCloud;
  * Date: 2018/9/10
  * Desc: 指定索引id查询索引和批量插叙索引
  */
-public class TestCloudSolr {
+public class TestSolrCloud {
 
 
 

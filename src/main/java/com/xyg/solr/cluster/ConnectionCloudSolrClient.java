@@ -1,4 +1,4 @@
-package com.xyg.solrCloud;
+package com.xyg.solr.cluster;
 
 import org.apache.solr.client.solrj.impl.CloudSolrClient;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.xyg.solr;
+package com.xyg.solr.single;
 
 
 import org.apache.solr.client.solrj.SolrQuery;
