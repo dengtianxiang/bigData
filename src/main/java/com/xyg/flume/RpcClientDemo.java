@@ -17,10 +17,10 @@ public class RpcClientDemo {
     public static void main(String[] args) {
         MyRpcClientFacade client = new MyRpcClientFacade();
         // Initialize client with the remote Flume agent's host and port
-        client.init("node21", 41414);
+        client.init("node21", 4141);
 
         // Send 10 events to the remote Flume agent. That agent should be configured to listen with an AvroSource.
-        for (int i = 1; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
             String sampleData = "Hello Flume! ERROR" + i;
             client.sendDataToFlume(sampleData);
             System.out.println("发送数据：" + sampleData);
